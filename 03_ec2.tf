@@ -2,7 +2,7 @@ module "ec2_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "4.3.0"
 
-  name = format("tizo-%s", var.tags["environment"])
+  name = format("elcy-%s", var.tags["environment"])
 
   ami                    = var.ami_id
   instance_type          = var.ec2_instance_type

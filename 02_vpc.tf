@@ -2,7 +2,7 @@ module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "3.19.0"
 
-  name = format("tizo-%s", var.tags["environment"])
+  name = format("elcy-%s", var.tags["environment"])
   cidr = var.vpc_cidr
 
   azs             = var.azs

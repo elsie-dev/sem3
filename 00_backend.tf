@@ -7,6 +7,6 @@ terraform {
     region                  = "eu-west-1"
     encrypt                 = true
     shared_credentials_file = "~/.aws/credentials"
-    profile                 = "tizo-dev"
+    profile                 = "elcy"
   }
 }

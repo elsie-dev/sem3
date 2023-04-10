@@ -1,5 +1,5 @@
 resource "aws_security_group" "this" {
-  name   = format("tizo-%s", var.tags["environment"])
+  name   = format("elcy-%s", var.tags["environment"])
   vpc_id = module.vpc.vpc_id
 
   dynamic "ingress" {
