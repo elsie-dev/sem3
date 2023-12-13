@@ -13,6 +13,6 @@ module "vpc" {
   enable_vpn_gateway = false
 
   tags = {
-    project_owner = "Elcy Marion"
+    project_owner = "Elsie Marion"
   }
 }
